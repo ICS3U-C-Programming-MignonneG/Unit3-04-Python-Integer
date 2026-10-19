@@ -13,8 +13,10 @@ def main():
         print(f"{user_input} is a positive number.")
     elif user_input < 0:
         print(f"{user_input} is a negative number.")
-    else:
+    elif user_input == 0:
         print(f"{user_input} is a just zero.")
+    else:
+        print(f"{user_input} is no idea.")
 
 
 if __name__ == "__main__":
